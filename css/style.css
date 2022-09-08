@@ -129,4 +129,15 @@ button.bottone {
 
 .end {
     color: red;
+    padding: 25px 10px;
+}
+
+/* hover */
+button.bottone:hover {
+    background-color: #464646;
+}
+
+.end:hover{
+    cursor: pointer;
+    background-color: #464646;
 }
