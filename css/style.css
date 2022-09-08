@@ -40,7 +40,7 @@ header .btn a {
 /* start main */
 .container {
     width: 90%;
-    height: 100%;
+    height: calc(100vh - 150px);
     margin: 0 auto;
     padding: 10px;
 }
@@ -74,15 +74,16 @@ article {
 /* footer */
 footer {
     width: 100%;
-    height: 75px;
+    height: 80px;
     background-color: #262626;
+    position: fixed;
+    bottom: 0;
 }
 
 .contutto {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
@@ -90,7 +91,6 @@ footer {
 
 .contutto2{
     display: flex;
-    flex-direction: row;
     gap: 10px;
 }
 
@@ -116,9 +116,17 @@ button.bottone {
     color: #fff;
     border-radius: 8px;
     min-height: 50px;
-    padding: 8px 15px;
+    padding: 10px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
+}
+
+#green{
+    color: green;
+}
+
+.end {
+    color: red;
 }
